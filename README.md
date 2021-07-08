@@ -4,6 +4,7 @@ PTM site validator: Amino acid sites found to have post-translational modificati
 For any enquiries please contact:
 sandeep.kolya@gmail.com or chinnu.kemmaai@gmail.com
 
+'''
 positional arguments:
   -i          Path to the PSM file from PTM search in Proteome Discoverer.
   -ft         Maximum search m/z range for the identification of immonium ion
@@ -13,3 +14,4 @@ positional arguments:
 
 optional arguments:
   -h, --help  show this help message and exit
+'''
