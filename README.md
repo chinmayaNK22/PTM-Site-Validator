@@ -4,6 +4,12 @@ PTM site validator: Amino acid sites found to have post-translational modificati
 For any enquiries please contact:
 sandeep.kolya@gmail.com or chinnu.kemmaai@gmail.com
 
+How to use PTM-Site-Validator
+
+Command line argument:
+```
+ptm_site_validator> python PTM_site_validator.py -i PSMs.txt -ft 0.02 -r Path_to_raw_data
+
 ```
 positional arguments:
   -i          Path to the PSM file from PTM search in Proteome Discoverer.
@@ -14,10 +20,4 @@ positional arguments:
 
 optional arguments:
   -h, --help  show this help message and exit
-```
-
-Command line 
-
-```
-ptm_site_validator> python PTM_site_validator.py -i PSMs.txt -ft 0.02 -r Path_to_raw_data
 ```
