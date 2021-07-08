@@ -8,7 +8,7 @@ How to use PTM-Site-Validator
 
 Command line argument:
 ```
-ptm_site_validator> python PTM_site_validator.py -i PSMs.txt -ft 0.02 -r Path_to_raw_data
+ptm_site_validator>python PTM_site_validator.py -i PSMs.txt -ft 0.02 -r Path_to_raw_data
 
 ```
 ```
