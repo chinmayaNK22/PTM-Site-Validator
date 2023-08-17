@@ -13,8 +13,7 @@ ptm_site_validator>python PTM_site_validator.py -i PSMs.txt -ft 0.02 -r Path_to_
 ```
 positional arguments:
   -i          Path to the PSM file from PTM search in Proteome Discoverer.
-  -ft         Maximum search m/z range for the identification of immonium ion
-              in MS/MS spectra. It is recommended to keep the same search
+  -ft         Immonium ion (m/z) search tolerance in Dalton. It is recommended to keep the same search
               tolerance used in the main search.
   -r          Path to the folder in which raw files are stored in .mgf format.
 
